@@ -1,0 +1,163 @@
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath, amsthm, amssymb, graphicx}
+\usepackage[bookmarks=true, colorlinks, citecolor=blue, linkcolor=black]{hyperref}
+\usepackage{xcolor}
+\usepackage{tocloft}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{fontspec}
+\usepackage{enumitem}
+\usepackage{tcolorbox}     % 彩色盒子
+\usepackage{boondox-cal}
+\usepackage{perpage}  % 加载perpage包
+\MakePerPage{footnote}  % 脚注每页重新编号
+\tcbuselibrary{skins}      % 启用皮肤库，支持标题栏设计
+
+\setCJKmainfont[BoldFont=SourceHanSerifSC-Bold.otf]{SourceHanSerifSC-light.otf}
+\usepackage{newtxtext}
+\renewcommand{\b}{\textbf}
+\newcommand{\f}{\footnote}
+\newcommand{\s}{\setlength{\parindent}{2em}}
+\newcommand{\q}[1]{\begin{questionbox}{}#1\end{questionbox}}
+% ===== 颜色定义 =====
+\definecolor{titlepink}{RGB}{135, 14, 79}  % 标题粉色
+\definecolor{questionbg}{RGB}{245, 240, 255}  % 浅紫色背景
+\definecolor{titleblue}{RGB}{41, 98, 255}     % 小标题颜色
+
+% ===== 提问模块定义 =====
+\newcounter{question}[section]
+\renewcommand{\thequestion}{\arabic{question}}
+\newtcolorbox[use counter=question]{questionbox}[1][]{
+    colback=questionbg,      % 使用预定义的背景色
+    colframe=titlepink,      % 使用预定义的边框色
+    coltitle=white,          % 标题文字颜色
+    title={Q. \thesection. \thequestion},              % 标题内容
+    fonttitle=\bfseries, % 标题字体
+    enhanced,                % 启用增强功能
+    attach boxed title to top left={xshift=5pt,yshift=-10pt}, % 标题栏位置
+    boxed title style={      % 标题栏样式
+        colback=titlepink,   % 使用预定义的标题栏颜色
+        colframe=titlepink,  % 标题栏边框颜色
+    },
+    rounded corners,
+    after skip=1.2em,        % 调整内容区后的间距（兼容所有版本）
+    fontupper=\normalsize,   % 内容字体大小
+    left=15pt,               % 内容左侧间距
+    right=15pt,              % 内容右侧间距
+    top=13pt,                % 内容顶部间距
+    bottom=12pt,             % 内容底部间距
+}
+
+% ===== 目录格式设置 =====
+% 主标题格式（粉色居中）
+\renewcommand{\contentsname}{目录}
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries\textcolor{titlepink}}
+\renewcommand{\cftaftertoctitle}{\hfill}  % 保持居中
+
+% 前导符和页码样式
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}  % 点状前导符
+\renewcommand{\cftsecpagefont}{\color{red}}       % 章节页码颜色
+\renewcommand{\cftsubsecpagefont}{\color{red}}    % 子章节页码颜色
+\renewcommand{\cftsubsubsecpagefont}{\color{red}}    % 子章节页码颜色
+\renewcommand{\cftdotsep}{1}                           % 点间距
+\renewcommand{\cftbeforesecskip}{3pt}                  % 章节垂直间距
+
+% ===== 标题格式设置 =====
+% Section标题（居中/粉色序号）
+\titleformat{\section}[block]
+{\centering\bfseries\huge}
+{\color{titlepink}\thesection}  % 粉色序号
+{0.5em}                         % 序号标题间距
+{\textcolor{titlepink}}        
+
+% 定义subsection编号格式为 "section.阿拉伯数字"
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+% 定义subsubsection编号格式为 "subsection.阿拉伯数字"
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+
+% 重置subsection和subsubsection计数器（从1开始）
+\setcounter{subsection}{1}
+\setcounter{subsubsection}{1}
+
+\titleformat{\subsection}[block]
+{\bfseries\Large}
+{\color{titlepink}\thesubsection}  % 粉色序号
+{0.5em}                         % 序号标题间距
+{\textcolor{titlepink}}        
+
+\titleformat{\subsubsection}[block]
+{\raggedright\bfseries\large}
+{\color{titlepink}\thesubsubsection}  % 粉色序号
+{0.5em}                         % 序号标题间距
+{\textcolor{black}}
+
+% ===== 超链接设置 =====
+\hypersetup{
+    linkcolor=red,         % 目录链接墨绿色
+    citecolor=blue,        % 引用链接蓝色
+    linkcolor=black        % 普通链接黑色
+}
+
+% ===== 页眉页脚设置 =====
+\pagestyle{fancy}
+\fancyhf{}
+\chead{\thepage}  % 页眉居中显示页码
+\cfoot{\thepage}   % 页脚居中显示页码
+
+% ===== 自定义命令 =====
+\newcommand{\dsigma}{d\sigma}  % 积分微分符号统一格式
+\newcommand{\dxdy}{dxdy}       % 二重积分微分符号
+
+% ===== 页面布局调整 =====
+\geometry{
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2.5cm,
+    right=2.5cm,
+    headheight=14pt
+}
+
+\title{\textbf{科学哲学前沿 - Week 1}}
+\author{$\mathbcal{Xshun}$}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+{
+\hypersetup{linkcolor=red}
+\tableofcontents
+}
+\section {Monday}
+\subsection{《认识论危机、戏剧性叙事与科学哲学》}
+{\centering\textbf{Epistemological Crises, Dramatic Narrative and the Philosophy of Science}}
+\subsubsection{什么是认识论危机?}
+
+一个\b{普通行动者}(Ordinary agents)自我认知的结果往往与实际发生的情形不同, 从表面现象(seems)到实质(is)之间的差别让人们开始思考他心问题\f{他心问题:心灵作为私密实体, 是否以及如何被他人直接认知. }和归纳的辩护问题\f{归纳的辩护:探讨归纳法在认知层面是否具有合理性和正当性, 比如从概率或频率的角度, 可以主张归纳的有效性取决于命题间的概率关系. 证明归纳正当性的问题被称为"休谟问题". }. 于是人们发现, 同样根据个体行为推断其行事风格, 思想情感, 却可以通过对立的解释\f{笔者的理解:当情况不同时, 我们对同一个现象的解释也会不同. 比如, 当我们与一个人的关系生疏, 友善的行为也会被视作是有预谋的讨好. }得到截然不同的结论. 然而, 由于社会生活建立在我们能理解彼此的行为的基础上, 这会使得正常的生活难以为继. 
+
+那么, 这样的基础\f{即理解彼此的行为. }能以任何形式被辩护吗?
+
+现在, 考虑我们是如何共享一种文化的. 我们共享一种文化, 实质上是共享一种\b{Schemata}, 我们通过这个框架来规约自己的行为, 同时解释他人的行为. 可见, 理解他人的行为和实施可被理解的行为本质相同, 正式通过一个相同的\b{Schemata}, 我们得以理解和推论他人的行为.
+
+然而, 正如前文所述, 对同一个现象有不同的系统性解释, 也就是说, 存在着相互竞争的\b{Schemata}, 其对同一现象有相互矛盾的描述. 这也就是普通行动者所遭遇的\b{认识论危机}(Epistemological Crisis)\f{作者在这里引用了\textit{Hamlet}来解释他的观点. 从维滕贝格归来的哈姆雷特有多种用于解释埃尔西诺事件的\b{Schemata}, 而他同时面临着"应当选用哪个Schemata"和"应该相信谁"的问题, 前者让他不知道该把什么当做证据, 后者让他不知道选用哪个图示, 陷入了循环的认识论危机. 同样的, 这样的认识论危机一定也存在于想要复现哈姆雷特故事的导演和想要理解哈姆雷特故事的文学家心中. }. 
+
+\subsubsection{建构戏剧性叙事}
+
+在哈姆雷特中, 
+
+\q{1234}
+\q{5678}
+\q{9012}
+    
+
+
+% \begin{description}[leftmargin=2em, labelwidth=8em, labelsep=1em]
+%     \item[Ordinary agents] 普通行动者
+%     \item[Schemata] 认知框架（或“图式”，视语境而定）
+%     \item[Epistemological Crisis] 认识论危机
+%     \item[休谟问题] 归纳的辩护问题（Hume's problem）
+%     % 后续可继续添加：\item[名词] 翻译
+% \end{description}
+
+\end{document}
