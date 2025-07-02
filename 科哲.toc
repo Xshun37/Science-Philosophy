@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Monday}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}《认识论危机、戏剧性叙事与科学哲学》}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}什么是认识论危机?}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}建构戏剧性叙事}{2}{subsubsection.1.1.2}%
