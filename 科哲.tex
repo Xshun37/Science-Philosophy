@@ -11,7 +11,12 @@
 \usepackage{tcolorbox}     % 彩色盒子
 \usepackage{boondox-cal}
 \usepackage{perpage}  % 加载perpage包
+
 \MakePerPage{footnote}  % 脚注每页重新编号
+\makeatletter
+\@removefromreset{footnote}{section}   % 解除与section的关联
+\@removefromreset{footnote}{subsection} % 解除与subsection的关联
+\makeatother
 \tcbuselibrary{skins}      % 启用皮肤库，支持标题栏设计
 
 \setCJKmainfont[BoldFont=SourceHanSerifSC-Bold.otf]{SourceHanSerifSC-light.otf}
@@ -20,10 +25,13 @@
 \newcommand{\f}{\footnote}
 \newcommand{\s}{\setlength{\parindent}{2em}}
 \newcommand{\q}[1]{\begin{questionbox}{}#1\end{questionbox}}
+\newcommand{\ans}[1]{\begin{ansbox}{}#1\end{ansbox}}
 % ===== 颜色定义 =====
 \definecolor{titlepink}{RGB}{135, 14, 79}  % 标题粉色
 \definecolor{questionbg}{RGB}{245, 240, 255}  % 浅紫色背景
 \definecolor{titleblue}{RGB}{41, 98, 255}     % 小标题颜色
+\definecolor{ansb}{RGB}{214, 248, 225}
+\definecolor{ansback}{RGB}{30, 120, 36}
 
 % ===== 提问模块定义 =====
 \newcounter{question}[section]
@@ -39,6 +47,30 @@
     boxed title style={      % 标题栏样式
         colback=titlepink,   % 使用预定义的标题栏颜色
         colframe=titlepink,  % 标题栏边框颜色
+    },
+    rounded corners,
+    after skip=1.2em,        % 调整内容区后的间距（兼容所有版本）
+    fontupper=\normalsize,   % 内容字体大小
+    left=15pt,               % 内容左侧间距
+    right=15pt,              % 内容右侧间距
+    top=13pt,                % 内容顶部间距
+    bottom=12pt,             % 内容底部间距
+}
+
+% ===== 回答模块定义 =====
+\newcounter{ans}[section]
+\renewcommand{\theans}{\arabic{ans}}
+\newtcolorbox[use counter=ans]{ansbox}[1][]{
+    colback=ansb,      % 使用预定义的背景色
+    colframe=ansback,      % 使用预定义的边框色
+    coltitle=white,          % 标题文字颜色
+    title={A. \thesection. \theans},              % 标题内容
+    fonttitle=\bfseries, % 标题字体
+    enhanced,                % 启用增强功能
+    attach boxed title to top left={xshift=5pt,yshift=-10pt}, % 标题栏位置
+    boxed title style={      % 标题栏样式
+        colback=ansback,   % 使用预定义的标题栏颜色
+        colframe=ansback,  % 标题栏边框颜色
     },
     rounded corners,
     after skip=1.2em,        % 调整内容区后的间距（兼容所有版本）
@@ -134,23 +166,36 @@
 {\centering\textbf{Epistemological Crises, Dramatic Narrative and the Philosophy of Science}}
 \subsubsection{什么是认识论危机?}
 
-一个\b{普通行动者}(Ordinary agents)自我认知的结果往往与实际发生的情形不同, 从表面现象(seems)到实质(is)之间的差别让人们开始思考他心问题\f{他心问题:心灵作为私密实体, 是否以及如何被他人直接认知. }和归纳的辩护问题\f{归纳的辩护:探讨归纳法在认知层面是否具有合理性和正当性, 比如从概率或频率的角度, 可以主张归纳的有效性取决于命题间的概率关系. 证明归纳正当性的问题被称为"休谟问题". }. 于是人们发现, 同样根据个体行为推断其行事风格, 思想情感, 却可以通过对立的解释\f{笔者的理解:当情况不同时, 我们对同一个现象的解释也会不同. 比如, 当我们与一个人的关系生疏, 友善的行为也会被视作是有预谋的讨好. }得到截然不同的结论. 然而, 由于社会生活建立在我们能理解彼此的行为的基础上, 这会使得正常的生活难以为继. 
+一个\b{普通行动者}(Ordinary agents)自我认知的结果往往与实际发生的情形不同, 从表面现象(seems)到实质(is)之间的差别让人们开始思考他心问题\f{他心问题:心灵作为私密实体, 是否以及如何被他人直接认知. }和归纳的辩护问题\f{归纳的辩护:探讨归纳法在认知层面是否具有合理性和正当性, 比如从概率或频率的角度, 可以主张归纳的有效性取决于命题间的概率关系. 证明归纳正当性的问题被称为``休谟问题''. }. 于是人们发现, 同样根据个体行为推断其行事风格, 思想情感, 却可以通过对立的解释\f{笔者的理解:当情况不同时, 我们对同一个现象的解释也会不同. 比如, 当我们与一个人的关系生疏, 友善的行为也会被视作是有预谋的讨好. }得到截然不同的结论. 然而, 由于社会生活建立在我们能理解彼此的行为的基础上, 这会使得正常的生活难以为继. 
 
 那么, 这样的基础\f{即理解彼此的行为. }能以任何形式被辩护吗?
 
 现在, 考虑我们是如何共享一种文化的. 我们共享一种文化, 实质上是共享一种\b{Schemata}, 我们通过这个框架来规约自己的行为, 同时解释他人的行为. 可见, 理解他人的行为和实施可被理解的行为本质相同, 正式通过一个相同的\b{Schemata}, 我们得以理解和推论他人的行为.
 
-然而, 正如前文所述, 对同一个现象有不同的系统性解释, 也就是说, 存在着相互竞争的\b{Schemata}, 其对同一现象有相互矛盾的描述. 这也就是普通行动者所遭遇的\b{认识论危机}(Epistemological Crisis)\f{作者在这里引用了\textit{Hamlet}来解释他的观点. 从维滕贝格归来的哈姆雷特有多种用于解释埃尔西诺事件的\b{Schemata}, 而他同时面临着"应当选用哪个Schemata"和"应该相信谁"的问题, 前者让他不知道该把什么当做证据, 后者让他不知道选用哪个图示, 陷入了循环的认识论危机. 同样的, 这样的认识论危机一定也存在于想要复现哈姆雷特故事的导演和想要理解哈姆雷特故事的文学家心中. }. 
+然而, 正如前文所述, 对同一个现象有不同的系统性解释, 也就是说, 存在着相互竞争的\b{Schemata}, 其对同一现象有相互矛盾的描述. 这也就是普通行动者所遭遇的\b{认识论危机}(Epistemological Crisis)\f{认识论危机指个体或群体对自身信念系统、知识框架或世界观的根本性怀疑和崩溃。它表现为无法用现有认知工具（如理论、叙事、信仰）来解释经验或现实，导致意义丧失、方向混乱和行动瘫痪. }. 
+
+作者在这里引用了\textit{Hamlet}来解释他的观点. 从维滕贝格归来的哈姆雷特有多种用于解释埃尔西诺事件的\b{Schemata}, 而他同时面临着``应当选用哪个Schemata''和``应该相信谁''的问题, 前者让他不知道该把什么当做证据, 后者让他不知道选用哪个图示, 陷入了循环的认识论危机. 同样的, 这样的认识论危机一定也存在于想要复现哈姆雷特故事的导演和想要理解哈姆雷特故事的文学家心中. 
 
 \subsubsection{建构戏剧性叙事}
 
-在哈姆雷特中, 
+首先我们需要定义什么是叙事.
 
-\q{4}
-\q{5678}
-\q{9012}
-    
+\b{叙事}(Narrative), 简言之就是人类用于将碎片化的经验组织成一系列连贯故事的认知框架. 叙事是人类生存的基本结构, 人们讲述叙事, 活在叙事之中. 对于碎片化的事件, 我们必须通过叙事赋予其意义. 
 
+当我们思考``究竟发生了什么''时,本质上是在思考\b{``该如何构建叙事?''}. 事实上, 回忆前文的认识论危机, 为了解决它, 我们必须构建一个新的叙事, 而为了重构叙事, 我们需要不断探询现状来反转我们对过去时间的理解, 并同时追求叙事的\b{真理性}(Truth)和\b{可理解性}(Intelligibility).
+
+不幸的, 追求真理往往可能破坏一个至今可理解的叙述, 因此对两者的追求并非总是协调一致的. 当我们逐渐探询真相, 就会让自己越不可理解, 如果做的极端, 就会陷入疯狂. 疯狂或死亡会阻止我们对认识论危机的解决, 因为认识论危机总是人际关系的危机. 如果人们不能对叙事进行重构, 共享的叙事缺失, 社会范围的认识论危机就会滑向非理性的结局\f{比如, ``后真相时代''下, 客观事实的重要性被个人理解取代, 这正源于社会范围内人际信任的崩塌, 共享叙事的缺失, 最终导致群体的极化和暴力, 而非理性对话. }. 
+
+在构建新叙事时, 我们发现新的叙事也总是需要被质疑的, 甚至衡量真理性, 可理解性, 理性的标准本身也是需要被质疑的. 我们永远无法生成我们掌握了真理, 或者说我们是完全理性的.
+
+容易发现, 认识论的进步就在于构建更充分的叙事, 而认识论危机正是这种重构的契机. 随之而来的问题是, 认识论的进步是何时开始的? 我们是从哪一个叙事出发?
+
+不妨从一个人的幼年开始. 在俄狄浦斯(Oedipus)期\f{俄狄浦斯期:弗洛伊德的重要理论, 其提出的``俄狄浦斯情结''又称``恋母情结''. 一般指儿童的性别认同发展阶段(3-6岁), 在这个阶段儿童开始感受到性别认同, 对异性父母有更深刻的感受, 并且体验到竞争和冲突等情绪. }, 我们开始受到外部世界的影响并尝试理解它, 同时从好的童话故事中学会如何投入社会现实并感知其中的秩序. 一个被剥夺了正确类型童话故事的儿童往往在将来选择逃避他难以解释和应对的现实.
+
+
+
+\q{}
+\ans{NULL}
 
 % \begin{description}[leftmargin=2em, labelwidth=8em, labelsep=1em]
 %     \item[Ordinary agents] 普通行动者
