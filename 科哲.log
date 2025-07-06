@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  5 JUL 2025 19:44
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  6 JUL 2025 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1117,7 +1117,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [4]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 246.
+(Font)              scaled to size 12.0pt on input line 242.
 
 
 
@@ -1178,15 +1178,15 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `科哲.out' has not changed.
-(rerunfilecheck)             Checksum: 66BBACBD21F36A80579FA610DAE1BA90;813.
+(rerunfilecheck)             Checksum: D4FF752D96A0BFCE85ACA524427D08F4;798.
  ) 
 Here is how much of TeX's memory you used:
- 32245 strings out of 473832
- 713193 string characters out of 5733158
- 1146010 words of memory out of 5000000
- 54753 multiletter control sequences out of 15000+600000
+ 32452 strings out of 473832
+ 729659 string characters out of 5733158
+ 1149012 words of memory out of 5000000
+ 54960 multiletter control sequences out of 15000+600000
  571078 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,11n,111p,1184b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,111p,1184b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 科哲.pdf (10 pages).
