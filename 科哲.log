@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  7 JUL 2025 22:43
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  8 JUL 2025 09:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1075,17 +1075,17 @@ LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 24.88pt on input line 164.
+
+
+[1
+
+]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 167.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 169.
 LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
 (Font)              scaled to size 5.0pt on input line 169.
-
-
-[1
-
-]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 177.
 
@@ -1232,13 +1232,13 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `科哲.out' has not changed.
-(rerunfilecheck)             Checksum: 3A97C023E1ED13ECC3EA40ADC82F1FEE;2578.
+(rerunfilecheck)             Checksum: 209201C669197EBB9F4066BEB75BDC72;2790.
  ) 
 Here is how much of TeX's memory you used:
- 32842 strings out of 473832
- 760333 string characters out of 5733158
- 1151012 words of memory out of 5000000
- 55350 multiletter control sequences out of 15000+600000
+ 32843 strings out of 473832
+ 760349 string characters out of 5733158
+ 1148012 words of memory out of 5000000
+ 55351 multiletter control sequences out of 15000+600000
  571078 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,12n,111p,1184b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
