@@ -12,9 +12,9 @@
 \contentsline {subsubsection}{\numberline {2.1.1}物理理论的真实本质和构成操作是什么？}{12}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}物理理论有何效用？理论乃知识经济}{14}{subsubsection.2.1.2}%
 \contentsline {subsubsection}{\numberline {2.1.3}理论乃分类学}{14}{subsubsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}理论趋于变为自然分类}{14}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4}理论趋于变为自然分类}{15}{subsubsection.2.1.4}%
 \contentsline {subsubsection}{\numberline {2.1.5}理论预测实验}{15}{subsubsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.6}总结}{15}{subsubsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.6}总结}{16}{subsubsection.2.1.6}%
 \contentsline {subsection}{\numberline {2.2}《表征性理论与物理学史》}{16}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}自然分类与解释在物理理论演化中的作用}{16}{subsubsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.3}《学习再现》}{16}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.2}物理学家关于物理理论之本质的观点}{17}{subsubsection.2.2.2}%
