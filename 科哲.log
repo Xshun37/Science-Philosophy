@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  9 JUL 2025 00:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  9 JUL 2025 21:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,30 +903,30 @@ Package fontspec Info:
 (fontspec)             <->s*[1]"[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 157.
+(Font)              scaled to size 12.0pt on input line 158.
  (./科哲.aux)
 \openout1 = `科哲.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -934,57 +934,57 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 157.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 157.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 157.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 157.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 157.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 157.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 157.
-LaTeX Font Info:    Redeclaring math accent \check on input line 157.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 157.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 157.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 157.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 157.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 158.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 158.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 158.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 158.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 158.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 158.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 158.
+LaTeX Font Info:    Redeclaring math accent \check on input line 158.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 158.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 158.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 158.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 158.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 157.
+(Font)              `operators' in the math version `normal' on input line 158.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 157.
+(Font)                  OT1/cmr/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 158.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 157.
+(Font)              `operators' in the math version `bold' on input line 158.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/m/n on input line 157.
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/m/n on input line 158.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 157.
+(Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 158.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TeXGyreTermesX(0)/m/it on input line 157.
+(Font)                  OT1/cmr/m/it --> TU/TeXGyreTermesX(0)/m/it on input line 158.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/b/n on input line 157.
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/b/n on input line 158.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 157.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 158.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 157.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 158.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/b/n on input line 157.
+(Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/b/n on input line 158.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermesX(0)/b/it on input line 157.
+(Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermesX(0)/b/it on input line 158.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 157.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 158.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 157.
-Package hyperref Info: Link coloring ON on input line 157.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 158.
+Package hyperref Info: Link coloring ON on input line 158.
  (./科哲.out) (./科哲.out)
 \@outlinefile=\write4
 \openout4 = `科哲.out'.
@@ -1025,37 +1025,37 @@ Package hyperref Info: Link coloring ON on input line 157.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 160.
+(Font)              scaled to size 20.74pt on input line 161.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 160.
+(Font)              scaled to size 20.74pt on input line 161.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 160.
+(Font)              scaled to size 14.4pt on input line 161.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 160.
+(Font)              scaled to size 10.0pt on input line 161.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 160.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 160.
+(Font)              scaled to size 7.0pt on input line 161.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 161.
 (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 160.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 161.
  (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+BOONDOX-cal on input line 160.
+LaTeX Font Info:    Trying to load font information for U+BOONDOX-cal on input line 161.
  (d:/texlive/2025/texmf-dist/tex/latex/boondox/uboondox-cal.fd
 File: uboondox-cal.fd 2011/04/26 Fontinst v1.933 font definitions for U/BOONDOX-cal.
 )
 LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
-(Font)              scaled to size 14.4pt on input line 160.
+(Font)              scaled to size 14.4pt on input line 161.
 LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
-(Font)              scaled to size 10.0pt on input line 160.
+(Font)              scaled to size 10.0pt on input line 161.
 LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
-(Font)              scaled to size 7.0pt on input line 160.
+(Font)              scaled to size 7.0pt on input line 161.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 163.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 163.
  (./科哲.toc
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 1.
@@ -1069,25 +1069,24 @@ LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
 (Font)              scaled to size 8.0pt on input line 1.
 LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
 (Font)              scaled to size 6.0pt on input line 1.
-)
-\tf@toc=\write5
-\openout5 = `科哲.toc'.
-
 
 
 [1
 
-]
+])
+\tf@toc=\write5
+\openout5 = `科哲.toc'.
+
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 164.
+(Font)              scaled to size 24.88pt on input line 165.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 167.
+(Font)              scaled to size 14.4pt on input line 168.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 169.
+(Font)              scaled to size 5.0pt on input line 170.
 LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
-(Font)              scaled to size 5.0pt on input line 169.
+(Font)              scaled to size 5.0pt on input line 170.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 177.
+(Font)              scaled to size 12.0pt on input line 178.
 
 
 
@@ -1126,7 +1125,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [5]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 242.
+(Font)              scaled to size 12.0pt on input line 243.
 
 
 
@@ -1228,7 +1227,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 [16]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 420.
+(Font)              scaled to size 10.0pt on input line 424.
 
 
 
@@ -1239,6 +1238,9 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [17]
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 445.
+
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1257,6 +1259,9 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [19]
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 10.95pt on input line 491.
+
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1265,21 +1270,48 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[20] (./科哲.aux)
+[20]
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[21]
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[22]
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[23] (./科哲.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `科哲.out' has not changed.
-(rerunfilecheck)             Checksum: 03DCA06B3E2375527B514A6FD6B4A99E;3654.
+(rerunfilecheck)             Checksum: 9620CDCEAE4B72D98AC81B2917B70AFD;3868.
  ) 
 Here is how much of TeX's memory you used:
- 32837 strings out of 473832
- 759013 string characters out of 5733158
- 1149010 words of memory out of 5000000
- 55344 multiletter control sequences out of 15000+600000
- 571086 words of font info for 126 fonts, out of 8000000 for 9000
+ 33026 strings out of 473832
+ 773959 string characters out of 5733158
+ 1149617 words of memory out of 5000000
+ 55529 multiletter control sequences out of 15000+600000
+ 571118 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,12n,111p,1184b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 科哲.pdf (20 pages).
+Output written on 科哲.pdf (23 pages).
