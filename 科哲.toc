@@ -9,7 +9,7 @@
 \contentsline {subsubsection}{\numberline {1.2.2}规范问题与实践知识的标准解释}{12}{subsubsection.1.2.2}%
 \contentsline {section}{\numberline {2}Tuesday}{12}{section.2}%
 \contentsline {subsection}{\numberline {2.1}《物理理论与自然分类》}{12}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}物理理论的真实本质和构成操作是什么？}{12}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}物理理论的真实本质和构成操作是什么？}{13}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}物理理论有何效用？理论乃思维经济}{14}{subsubsection.2.1.2}%
 \contentsline {subsubsection}{\numberline {2.1.3}理论乃分类学}{14}{subsubsection.2.1.3}%
 \contentsline {subsubsection}{\numberline {2.1.4}理论趋于变为自然分类}{15}{subsubsection.2.1.4}%
@@ -26,3 +26,5 @@
 \contentsline {subsubsection}{\numberline {3.1.4}结论}{20}{subsubsection.3.1.4}%
 \contentsline {section}{\numberline {4}Thursday}{20}{section.4}%
 \contentsline {subsection}{\numberline {4.1}《因果性与决定论》}{20}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}因果性}{20}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}决定论}{23}{subsubsection.4.1.2}%

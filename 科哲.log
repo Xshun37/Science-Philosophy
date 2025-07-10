@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  9 JUL 2025 21:53
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.7.1)  10 JUL 2025 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1259,9 +1259,6 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [19]
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 491.
-
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1271,6 +1268,9 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [20]
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 10.95pt on input line 491.
+
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1303,13 +1303,13 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `科哲.out' has not changed.
-(rerunfilecheck)             Checksum: 9620CDCEAE4B72D98AC81B2917B70AFD;3868.
+(rerunfilecheck)             Checksum: 005DFBE964C54CDAEDA7863588C22209;4052.
  ) 
 Here is how much of TeX's memory you used:
- 33026 strings out of 473832
- 773959 string characters out of 5733158
- 1149617 words of memory out of 5000000
- 55529 multiletter control sequences out of 15000+600000
+ 33027 strings out of 473832
+ 773975 string characters out of 5733159
+ 1149566 words of memory out of 5000000
+ 55530 multiletter control sequences out of 15000+600000
  571118 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,12n,111p,1184b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
