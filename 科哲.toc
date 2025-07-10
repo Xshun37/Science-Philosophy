@@ -28,3 +28,5 @@
 \contentsline {subsection}{\numberline {4.1}《因果性与决定论》}{20}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}因果性}{20}{subsubsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}决定论}{23}{subsubsection.4.1.2}%
+\contentsline {section}{\numberline {5}Friday}{23}{section.5}%
+\contentsline {subsection}{\numberline {5.1}《幻想、想象与银幕》}{23}{subsection.5.1}%
