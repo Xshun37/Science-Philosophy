@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  10 JUL 2025 23:04
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.30)  10 JUL 2025 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**科哲
-(./科哲.tex
+**物理哲学
+(./物理哲学.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (d:/texlive/2025/texmf-dist/tex/latex/ctex/ctexart.cls (d:/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
@@ -904,8 +904,8 @@ Package fontspec Info:
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 158.
- (./科哲.aux)
-\openout1 = `科哲.aux'.
+ (./物理哲学.aux)
+\openout1 = `物理哲学.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
 LaTeX Font Info:    ... okay on input line 158.
@@ -985,9 +985,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 158.
 Package hyperref Info: Link coloring ON on input line 158.
- (./科哲.out) (./科哲.out)
+ (./物理哲学.out) (./物理哲学.out)
 \@outlinefile=\write4
-\openout4 = `科哲.out'.
+\openout4 = `物理哲学.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1056,7 +1056,7 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 163.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 17.28pt on input line 163.
- (./科哲.toc
+ (./物理哲学.toc
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
@@ -1075,7 +1075,7 @@ LaTeX Font Info:    Font shape `U/BOONDOX-cal/b/n' will be
 
 ])
 \tf@toc=\write5
-\openout5 = `科哲.toc'.
+\openout5 = `物理哲学.toc'.
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 24.88pt on input line 165.
@@ -1289,7 +1289,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
 
  []
 
@@ -1302,21 +1302,21 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[23] (./科哲.aux)
+[23] (./物理哲学.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `科哲.out' has not changed.
+Package rerunfilecheck Info: File `物理哲学.out' has not changed.
 (rerunfilecheck)             Checksum: 0DCE6735A4AD2F0539417EFBA21EF9ED;4264.
  ) 
 Here is how much of TeX's memory you used:
  33041 strings out of 473832
- 774889 string characters out of 5733158
- 1150583 words of memory out of 5000000
+ 774937 string characters out of 5733158
+ 1150589 words of memory out of 5000000
  55543 multiletter control sequences out of 15000+600000
  571126 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,12n,111p,1184b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,111p,1186b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 科哲.pdf (23 pages).
+Output written on 物理哲学.pdf (23 pages).
